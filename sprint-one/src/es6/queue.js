@@ -11,7 +11,7 @@ class Queue {
     this.collection[this.index] = value;
     this.index++;
   }
-
+  
   dequeue() {
     var result = this.collection[this.remove];
     delete this.collection[this.remove];
