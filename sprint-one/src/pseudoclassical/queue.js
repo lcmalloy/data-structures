@@ -16,7 +16,7 @@ Queue.prototype.dequeue = function() {
   delete this.container[this.remove];
   this.remove++;
   return result;
-}
+};
 
 Queue.prototype.size = function() {
   return Object.keys(this.container).length;

@@ -14,7 +14,7 @@ var queueMethods = {};
 
 queueMethods.enqueue = function(value) {
   this.container[this.index] = value;
-  this.index++
+  this.index++;
   // storage[index] = value;
   // index++;
 };
@@ -30,9 +30,3 @@ queueMethods.size = function() {
   return Object.keys(this.container).length;
 };
 
-
-
-var test1 = Queue();
-console.log(test1.enqueue(1));
-var test2 = Queue();
-test2.enqueue(2)

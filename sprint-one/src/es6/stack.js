@@ -8,19 +8,19 @@ class Stack {
   push(value) {
     this.collection[this.index] = value;
     this.index++;
-  };
+  }
 
   pop() {
     if (this.index > 0) {
       this.index--;
     }
     return this.collection[this.index];
-  };
+  }
 
   size() {
     return this.index;
-  };
+  }
 
-};
+}
 
 var test1 = new Stack();
